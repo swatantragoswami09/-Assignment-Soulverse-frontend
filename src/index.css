@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+button {
+  box-shadow: none !important;
+  height: 45px !important;
+  border-radius: 2px !important;
+}
+input,
+select {
+  height: 45px;
+  width: 100% !important;
+  border: 1px solid #1b1a1a;
+  padding-left: 20px;
+  border-radius: 2px !important;
+}
+input:focus,
+select:focus {
+  outline: none !important;
+  border: 1px solid #6d6d6d !important;
+  box-shadow: none !important;
+}
+.ant-form-item {
+  margin-bottom: 0px !important;
+}
+
+a {
+  text-decoration: underline !important;
+  color: #242323;
+}
+a:hover {
+  color: #242323;
+}
+
+i {
+  font-size: 20px !important;
+  cursor: pointer;
+}
+
+.ant-form-item-label {
+  padding: 0px !important;
+}
+
+table {
+  border: 1px solid #c0c0c0 !important;
+}
+.ant-select-selector {
+  border: 1px solid #6d6d6d !important;
+  border-radius: 2px !important;
+  height: 40px !important;
+}
+.ant-select-selector:hover {
+  border: 1px solid #303030 !important ;
+  box-shadow: none !important;
+  height: 40px !important;
+}
+.ant-select-selector input {
+  height: 40px !important;
+  border: none !important;
+}
+
+/* Quick search and filters */
+.quick-search-results {
+  height: 500px;
+  overflow-y: auto;
+  width: 100%;
+  border: 1px solid #c0c0c0;
+  background-color: white;
+  position: absolute;
+  z-index: 100;
+  top: 43px;
+  box-shadow: 1px 1px 2px #c0c0c0;
+}
